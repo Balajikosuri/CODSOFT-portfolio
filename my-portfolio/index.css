@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.my-portfolio {
+    padding: 5%;
+}
+
+.header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 36px;
+}
+
+.header-subtitle {
+    font-size: 18px;
+}
+
+/* Style the other sections */
+.section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Bree Serif";
+}
+
+.img-container p {
+    width: 70%;
+}
+
+.about-image {
+    width: 180px;
+    height: 180;
+    border-radius: 100%;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.3s ease; */
+}
+
+.projects {
+    margin-bottom: 20px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.project-description {
+    margin-bottom: 10px;
+}
+
+.project-technologies {
+    font-style: italic;
+    color: #555;
+}
+
+.project-link {
+    margin-top: 10px;
+}
+
+.resume {
+    margin-bottom: 20px;
+}
+
+.resume-link,
+.contact-info {
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 14px;
+}
